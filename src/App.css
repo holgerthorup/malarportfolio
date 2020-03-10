@@ -1,0 +1,155 @@
+.logo {
+  font-size: larger;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color :#551A8B;
+  border: 2px solid black;
+  margin: 3px;
+  padding: 13px;
+}
+.mdl-layout__header-row {
+  background: #af9a7d;
+  
+}
+
+/*  Nav */
+.mdl-layout__header-row .mdl-navigation__link {
+  color:rgb(black);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.mdl-layout__header-row .mdl-navigation__link:hover {
+ color:black;
+}
+/*.mdl-layout__header--scroll {
+  position: fixed;
+  width: 97%;
+}*/
+@media screen and (min-width: 768px) {
+ 
+  i.material-icons {
+    display: none;
+  }
+}
+@media screen and (max-width:1024) {
+  .mdl-layout__header, mdl-layout__header--scroll header-color {
+    display: inline-block;
+  }
+}
+
+.landing-grid {
+  background: #ffffff;  
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/* End Nav */
+
+/*  Resume  */
+.resume-right-col {
+  background: #cfcfcf;
+  color: black;
+  padding: 2em;
+}
+.line {
+  border-top: 3px solid #af9a7d;
+}
+.resume-right h5 {
+  font-weight: bold;
+}
+
+/* About */
+.about {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  width: 60%;
+  margin: 55px auto;
+  border-radius: 11px;
+  padding: 10px;
+}
+
+/* Personal project */
+.projects-grid{
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   grid-row-gap: 2rem;
+    width: 80%;
+}
+
+.social-title {
+  text-decoration: none;
+  color:#af9a7d;
+  font-weight: bold;
+}
+.mdl-button mdl-js-button {
+  color:red;
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .projects-grid {
+    margin:auto;
+  }
+}
+/* Experience */
+.experience h6 {
+  line-height: 10px;
+  margin:0px;
+  font-weight: bold;
+}
+
+/* Home */
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+  border-radius: 9999px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner-text {
+  background-color: #cfcfcf;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  color: black;
+}
+
+.banner-text h1 {
+  font-size: 54px;
+  font-weight: bold;
+ 
+}
+
+.banner-text hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+ 
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+   width: 50%;
+ 
+}
+
+.social-links i {
+  color: black;
+  font-size: 5em;
+  padding: 8px;
+}
