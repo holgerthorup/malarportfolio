@@ -13,9 +13,9 @@ const Landing = () => {
             className="avatar-img"
           />
           <div className="banner-text">
-            <h1>Front End  Developer</h1>
+            <h1>Front-end developer</h1>
             <hr />
-            <p>React | JavaScript | Next | HTML/CSS | Bootstrap | Scss | Git | .Net | Umbraco | SQL/Mysql</p>
+            <p>React | JavaScript | Next | HTML5/CSS3 | Bootstrap | Scss | Git | .Net | Umbraco | SQL/Mysql</p>
           </div>
         </Cell>
       </Grid>
