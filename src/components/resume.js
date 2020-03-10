@@ -10,14 +10,14 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4} className="resume-right">
-            <h4 style={{ color: 'grey' }}>Front End Developer</h4>
+            <h4 style={{ color: 'grey' }}>Front-end developer</h4>
             <hr className="line" />
             <p>I am driven by continuous development both professionally and personally. My result and detail- oriented
-              attitude to work helps me provide a professional</p>
+              attitude to work helps me provide a professional delivery of tasks assigned to me. People know me for my commitment, contribution and teamwork</p>
             <hr className="line" />
             <h5>Phone</h5>
             <p>91732019</p>
-            <h5>Email</h5>
+            <h5>E-mail</h5>
             <p>malarm09@gmail.com</p>
             <div className="social-links">
 
@@ -27,9 +27,9 @@ class Resume extends Component {
               </a>
             </div>
             <h5>Languages</h5>
-            <p>Danish : Limited Working Proficiency</p>
-            <p>English : Professional Working Proficiency</p>
-            <p>Tamil : Native or Bilingual Proficiency</p>
+            <p>Danish : Limited working proficiency</p>
+            <p>English : Professional working proficiency</p>
+            <p>Tamil : Native or Bilingual proficiency</p>
             <hr className="line" />
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -37,14 +37,14 @@ class Resume extends Component {
             <Education
               startYear={2007}
               endYear={2010}
-              schoolName="Bharathidasan University , Trichy, India "
+              schoolName="Bharathidasan University,Trichy,India "
               schoolDescription="Master in Computer Application  "
               access="Assessed and accredited by the Danish Ministry of Education"
             />
             <Education
               startYear={2004}
               endYear={2007}
-              schoolName="Bharathidasan University , Trichy, India "
+              schoolName="Bharathidasan University,Trichy,India "
               schoolDescription="Bachelor in Chemistry "
             />
             <hr className="line" />
@@ -56,7 +56,7 @@ class Resume extends Component {
               jobName="Front end developer Intern "
               jobDescription={
                 <ul>
-                  <li>Took care of front-end development in React, Next ,Redux ,Git ,SCSS ,HTML5 ,CSS3</li>
+                  <li>Took care of front-end development in React, Next ,Redux ,Git ,SCSS ,HTML5 and CSS3</li>
                   <li> Learnt development both from personal projects and on job</li>
                 </ul>
               }
@@ -77,7 +77,7 @@ class Resume extends Component {
                   </li>
                 </ul>
               }
-              usedTechnologies="Used Technologies : C#, ASP.NET MVC, SQL, Umbraco, HTML, CSS, Javascript"
+              usedTechnologies="Used Technologies : C#, ASP.NET MVC, SQL, Umbraco, HTML5, CSS3, Javascript"
             />
             <Experience
               startYear=' April 2014'
@@ -104,7 +104,7 @@ class Resume extends Component {
                   <li>We digitalised school materials of a private skole for our customer in the USA</li>
                 </ul>
               }
-              usedTechnologies="Used Technologies : PHP, , HTML, CSS, MYSQL, JQuery."
+              usedTechnologies="Used Technologies : PHP, HTML, CSS, MYSQL, JQuery."
             />
             <hr className="line" />
             <h2>Skills</h2>
