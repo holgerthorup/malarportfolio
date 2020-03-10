@@ -18,13 +18,17 @@ class Projects extends Component {
           <Card shadow={5} >
             <CardTitle  >Search and Display data from API</CardTitle>
             <CardText>
-              <p> This website is made for company which rents out summer houses to its clients. There are two main features in this website. The first feature is to show the property details .Using my front end skills I help the product owner (company owner) show property details such as Property picture, number of bedrooms, guest counts, city and price per night. </p>
-              <p>The second important feature is to show price range in the filter. As the product owner has umpteen number of summer houses, In order to help the clients  select the summer houses based on their affordability, I have added the price range in the filter.</p>
+              <p> This website is made for a company which rents out summer houses to its clients. There are two main features in this website.
+              The first feature is to show the property details .Using my front end skills I help the product owner (company owner) show property
+                 details such as property picture, number of bedrooms, guest counts, city and price per night. </p>
+              <p>The second important feature is to show price range in the filter. As the product owner has umpteen number of summer houses.
+                 I have added the price range in the filter, in order to help the clients  select the summer houses based on their affordability.</p>
               <p>Used Technologies : React, HTML5, CSS3 And API</p>
             </CardText>
             <CardActions border>
               <Button ><Link to="https://github.com/malarm/React-With-API" target="_blank" className="social-title">GitHub</Link></Button>
               <Button ><Link to="https://novasol.malarm09.now.sh/" target="_blank" className="social-title">Live Demo</Link></Button>
+              <Button ><Link to="https://github.com/malarm/React-With-API/blob/master/Output.jpg" target="_blank" className="social-title">Demo</Link></Button>
             </CardActions>
 
           </Card>
@@ -43,23 +47,6 @@ class Projects extends Component {
               <Button ><Link to="https://malarresort.now.sh/" target="_blank" className="social-title">Live Demo</Link></Button>
             </CardActions>
           </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ height: 'min-content' }}>
-            <CardTitle >My Profile Website</CardTitle>
-            <CardText>
-              <p> I developed a website for a resort. The search function is the main function of the website.
-              Hotel rooms can be selected based on room type, number of guests and the price of the rooms.
-               Web API is an important technical feature.</p>
-              <p>Used Technologies : React, React MDL material design, React Router, HTML5, CSS3 </p>
-
-            </CardText>
-            <CardActions border>
-              <Button ><Link to="https://github.com/malarm/malarresort" target="_blank" className="social-title">GitHub</Link></Button>
-              <Button ><Link to="https://malarresort.now.sh/" target="_blank" className="social-title">Live Demo</Link></Button>
-            </CardActions>
-          </Card>
-
-
 
         </div>
 
@@ -77,7 +64,7 @@ class Projects extends Component {
             </CardText>
             <CardActions border >
               <Button ><Link to="https://github.com/malarm/IMDB" target="_blank" className="social-title" >GitHub</Link></Button>
-              <Button ><Link to="https://novasol.malarm09.now.sh/" target="_blank" className="social-title">Live Demo</Link></Button>
+              <Button ><Link to="https://novasol.malarm09.now.sh/" target="_blank" className="social-title">Demo</Link></Button>
             </CardActions>
           </Card></div>
       )
