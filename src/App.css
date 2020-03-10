@@ -74,7 +74,7 @@
   margin: 55px auto;
   border-radius: 11px;
   padding: 10px;
-   background: #ececec;
+  background: #ececec;
 }
 
 /* Personal project */
@@ -105,6 +105,16 @@
   line-height: 10px;
   margin:0px;
   font-weight: bold;
+}
+
+.experience span {
+  font-weight: bold;
+}
+/* Skills */
+.skill div {
+  display: flex;
+  font-weight: bold;
+  font-size:20px;
 }
 
 /* Home */
