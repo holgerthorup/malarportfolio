@@ -8,9 +8,9 @@ const Education = (props) => {
         <p>{props.startYear} - {props.endYear}</p>
       </Cell>
       <Cell col={8}>
-        <h4 style={{ marginTop: '0px' }}>{props.schoolName}</h4>
-        <p>{props.schoolDescription}</p>
-        <i>{props.access}</i>
+        <h4 style={{ marginTop: '0px' }}>{props.schoolDescription}</h4>
+        <h5><i>{props.access}</i></h5>
+        <p>{props.schoolName}</p>
       </Cell>
     </Grid>
   )
