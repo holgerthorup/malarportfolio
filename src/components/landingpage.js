@@ -4,7 +4,7 @@ import logo from './images/Malar.jpg';
 
 const Landing = () => {
   return (
-    <div style={{ width: '100%', margin: 'auto' }}>
+    <div className="container">
       <Grid className="landing-grid">
         <Cell col={12}>
           <img
