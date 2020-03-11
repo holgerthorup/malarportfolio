@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4} className="resume-right">
             <h4 style={{ color: 'grey' }}>Front-end developer</h4>
             <hr className="line" />
-            <p>I am driven by continuous development both professionally and personally. My result and detail- oriented
+            <p>I am driven by continuous development both professionally and personally. My result and detail-oriented
               attitude to work helps me provide a professional delivery of tasks assigned to me. People know me for my commitment, contribution and teamwork</p>
             <hr className="line" />
             <h5>Phone</h5>
@@ -29,7 +29,7 @@ class Resume extends Component {
             <h5>Languages</h5>
             <p>Danish : Limited working proficiency</p>
             <p>English : Professional working proficiency</p>
-            <p>Tamil : Native or Bilingual proficiency</p>
+            <p>Tamil : Native or Bi-lingual proficiency</p>
             <hr className="line" />
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -53,7 +53,7 @@ class Resume extends Component {
               startYear='January 2020'
               endYear='March 2020'
               companyName='Applied Technologies '
-              jobName="Front end developer Intern "
+              jobName="Front-end developer Intern "
               jobDescription={
                 <ul>
                   <li>Took care of front-end development in React, Next ,Redux ,Git ,SCSS ,HTML5 and CSS3</li>
@@ -71,7 +71,7 @@ class Resume extends Component {
                 <ul>
                   <li>Developed and maintained the following websites in C#, ASP.NET MVC and Umbraco : www.deo.dk, www.undervisning.deo.dk ,www.euforedrag.dk www.notat.dk</li>
                   <li>Applied scrum method in development </li>
-                  <li> Close cooperation with communication mangers, graphic designer and project leaders on a daily basis.</li>
+                  <li> Close cooperation with communication mangers,project leaders and a graphic designer on a daily basis.</li>
                   <li>Offered technical support to the team
                    <li> Maintained domain and worked closely together with domain supplier</li>
                   </li>
@@ -100,8 +100,8 @@ class Resume extends Component {
               jobName="Developer"
               jobDescription={
                 <ul>
-                  <li>Gained good experience with PHP, MySQL, CSS, HTML, Drupal</li>
-                  <li>We digitalised school materials of a private skole for our customer in the USA</li>
+                  <li>Gained solid experience with PHP, MySQL, CSS, HTML, Drupal</li>
+                  <li>We digitalised school materials of a private school for our customer in the USA</li>
                 </ul>
               }
               usedTechnologies="Used Technologies : PHP, HTML, CSS, MYSQL, JQuery."
