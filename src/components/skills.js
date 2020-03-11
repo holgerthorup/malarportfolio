@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Cell, ProgressBar } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 
 const Skills = (props) => {
   return (
