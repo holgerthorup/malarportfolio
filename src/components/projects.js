@@ -68,7 +68,6 @@ class Projects extends Component {
             </CardText>
             <CardActions border >
               <Button ><Link to="https://github.com/malarm/IMDB" target="_blank" className="social-title" >GitHub</Link></Button>
-              <Button ><Link to="https://novasol.malarm09.now.sh/" target="_blank" className="social-title">Demo</Link></Button>
             </CardActions>
           </Card></div>
       )
